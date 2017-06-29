@@ -2952,6 +2952,9 @@ namespace JIOSiteNavigator
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f0b00ba
+			public const int AutoCompleteInput = 2131427514;
+			
 			// aapt resource value: 0x7f0b00a6
 			public const int action0 = 2131427494;
 			
@@ -3192,8 +3195,8 @@ namespace JIOSiteNavigator
 			// aapt resource value: 0x7f0b0052
 			public const int list_item = 2131427410;
 			
-			// aapt resource value: 0x7f0b00bb
-			public const int masked = 2131427515;
+			// aapt resource value: 0x7f0b00bc
+			public const int masked = 2131427516;
 			
 			// aapt resource value: 0x7f0b00a9
 			public const int media_actions = 2131427497;
@@ -3501,8 +3504,8 @@ namespace JIOSiteNavigator
 			// aapt resource value: 0x7f0b000e
 			public const int view_offset_helper = 2131427342;
 			
-			// aapt resource value: 0x7f0b00ba
-			public const int visible = 2131427514;
+			// aapt resource value: 0x7f0b00bb
+			public const int visible = 2131427515;
 			
 			// aapt resource value: 0x7f0b009b
 			public const int volume_item_container = 2131427483;
@@ -3799,7 +3802,10 @@ namespace JIOSiteNavigator
 			public const int select_dialog_singlechoice_material = 2130903105;
 			
 			// aapt resource value: 0x7f030042
-			public const int support_simple_spinner_dropdown_item = 2130903106;
+			public const int SiteSearch = 2130903106;
+			
+			// aapt resource value: 0x7f030043
+			public const int support_simple_spinner_dropdown_item = 2130903107;
 			
 			static Layout()
 			{
