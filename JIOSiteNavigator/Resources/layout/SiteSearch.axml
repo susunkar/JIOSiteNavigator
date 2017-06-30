@@ -8,9 +8,10 @@
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Autocomplete example:" />
+        android:text="Enter the Site Name Or SAP ID:" />
     <AutoCompleteTextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/AutoCompleteInput" />
+        android:id="@+id/AutoCompleteInput"
+        android:singleLine="true" />
 </LinearLayout>

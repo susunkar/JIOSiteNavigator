@@ -1,13 +1,11 @@
-﻿namespace JIOSiteNavigator
+﻿using Android.App;
+using Android.Content;
+using Android.OS;
+using System;
+
+namespace JIOSiteNavigator
 {
-    using System;
-    using Android.App;
-    using Android.Content;
-    using Android.Graphics.Drawables;
-    using Android.OS;
-    using Android.Widget;
-    
-    [Activity(Label = "JIO Site Navigator", MainLauncher = true, Icon = "@drawable/CellTower")]
+    [Activity(Label = "JIO Site Navigator", MainLauncher = true, Icon = "@drawable/JIOLogo2")]
     public class MainActivity : TabActivity
     {
         protected override void OnCreate(Bundle bundle)

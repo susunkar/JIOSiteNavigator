@@ -19,9 +19,11 @@ namespace JIOSiteNavigator
         {
             base.OnCreate(savedInstanceState);
 
-            TextView textview = new TextView(this);
-            textview.Text = "This is the About JIO's Site Navigator Application.";
-            SetContentView(textview);
+            //TextView textview = new TextView(this);
+            //textview.Text = "This is the About JIO's Site Navigator Application.";
+            //SetContentView(textview);
+
+            SetContentView(Resource.Layout.AboutSite);
         }
     }
 }
