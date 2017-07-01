@@ -10,6 +10,9 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using System.IO;
+using Android.Support.V7.Widget;
+using Android.Text;
+using SiteNavigatorLib;
 
 namespace JIOSiteNavigator
 {
@@ -20,23 +23,24 @@ namespace JIOSiteNavigator
         {
             base.OnCreate(savedInstanceState);
 
-            //TextView textview = new TextView(this);
-            //textview.Text = "This is the Site Search Tab.";
-            //SetContentView(textview);
             SetContentView(Resource.Layout.SiteSearch);
-
-            /*
-            var autoCompleteOptions = new String[] { "Hello", "Hey", "Hej", "Hi", "Hola", "Bonjour", "Gday", "Goodbye", "Sayonara", "Farewell", "Adios" };
+            SiteRepository siteRepo = new SiteRepository();
+            var autoCompleteOptions = siteRepo.SiteDetail.Select(c => c.SAPKey).ToArray();
+            //var autoCompleteOptions = new String[] { "Hello", "Hey", "Hej", "Hi", "Hola", "Bonjour", "Gday", "Goodbye", "Sayonara", "Farewell", "Adios" };
+          
             ArrayAdapter autoCompleteAdapter = new ArrayAdapter(this, Android.Resource.Layout.SimpleDropDownItem1Line
                 , autoCompleteOptions);
 
             var autocompleteTextView = FindViewById<AutoCompleteTextView>(Resource.Id.AutoCompleteInput);
             autocompleteTextView.Adapter = autoCompleteAdapter;
-            */
 
-            #region Additional Information - use a file to populate autocomplete array
+            var selectSiteData = siteRepo.SiteDetail.Where(c => c.SAPKey.Equals(autocompleteTextView.Text));
+
             
+            #region Additional Information - use a file to populate autocomplete array
+
             // instead of the small array of greetings, use a large dictionary of words loaded from a file
+            /*
             Stream seedDataStream = Assets.Open(@"WordList.txt");
             List<string> lines = new List<string>();
             using (StreamReader reader = new StreamReader(seedDataStream)) {
@@ -49,7 +53,8 @@ namespace JIOSiteNavigator
             ArrayAdapter dictionaryAdapter = new ArrayAdapter(this, Android.Resource.Layout.SimpleDropDownItem1Line, wordlist);
             var autocompleteTextView = FindViewById<AutoCompleteTextView>(Resource.Id.AutoCompleteInput);
             autocompleteTextView.Adapter = dictionaryAdapter;
-            
+            */
+
             #endregion
         }
     }
