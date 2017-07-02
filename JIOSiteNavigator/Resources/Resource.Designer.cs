@@ -3050,11 +3050,14 @@ namespace JIOSiteNavigator
 			// aapt resource value: 0x7f0b0033
 			public const int bottom = 2131427379;
 			
-			// aapt resource value: 0x7f0b00d7
-			public const int btnCIMobileNo = 2131427543;
+			// aapt resource value: 0x7f0b00e6
+			public const int btnCIMobileNo = 2131427558;
 			
-			// aapt resource value: 0x7f0b00d1
-			public const int btnTechnicianMobileNo = 2131427537;
+			// aapt resource value: 0x7f0b00e8
+			public const int btnGeoMap = 2131427560;
+			
+			// aapt resource value: 0x7f0b00e3
+			public const int btnTechnicianMobileNo = 2131427555;
 			
 			// aapt resource value: 0x7f0b0055
 			public const int buttonPanel = 2131427413;
@@ -3206,26 +3209,29 @@ namespace JIOSiteNavigator
 			// aapt resource value: 0x7f0b00bb
 			public const int linearLayout1 = 2131427515;
 			
+			// aapt resource value: 0x7f0b00cc
+			public const int linearLayout10 = 2131427532;
+			
+			// aapt resource value: 0x7f0b00cf
+			public const int linearLayout11 = 2131427535;
+			
+			// aapt resource value: 0x7f0b00d2
+			public const int linearLayout12 = 2131427538;
+			
+			// aapt resource value: 0x7f0b00d5
+			public const int linearLayout13 = 2131427541;
+			
 			// aapt resource value: 0x7f0b00d8
-			public const int linearLayout10 = 2131427544;
+			public const int linearLayout14 = 2131427544;
 			
 			// aapt resource value: 0x7f0b00db
-			public const int linearLayout11 = 2131427547;
+			public const int linearLayout15 = 2131427547;
 			
 			// aapt resource value: 0x7f0b00de
-			public const int linearLayout12 = 2131427550;
-			
-			// aapt resource value: 0x7f0b00e1
-			public const int linearLayout13 = 2131427553;
-			
-			// aapt resource value: 0x7f0b00e4
-			public const int linearLayout14 = 2131427556;
+			public const int linearLayout16 = 2131427550;
 			
 			// aapt resource value: 0x7f0b00e7
-			public const int linearLayout15 = 2131427559;
-			
-			// aapt resource value: 0x7f0b00ea
-			public const int linearLayout16 = 2131427562;
+			public const int linearLayout17 = 2131427559;
 			
 			// aapt resource value: 0x7f0b00bf
 			public const int linearLayout2 = 2131427519;
@@ -3239,17 +3245,11 @@ namespace JIOSiteNavigator
 			// aapt resource value: 0x7f0b00c9
 			public const int linearLayout5 = 2131427529;
 			
-			// aapt resource value: 0x7f0b00cc
-			public const int linearLayout6 = 2131427532;
+			// aapt resource value: 0x7f0b00e1
+			public const int linearLayout7 = 2131427553;
 			
-			// aapt resource value: 0x7f0b00cf
-			public const int linearLayout7 = 2131427535;
-			
-			// aapt resource value: 0x7f0b00d2
-			public const int linearLayout8 = 2131427538;
-			
-			// aapt resource value: 0x7f0b00d5
-			public const int linearLayout9 = 2131427541;
+			// aapt resource value: 0x7f0b00e4
+			public const int linearLayout9 = 2131427556;
 			
 			// aapt resource value: 0x7f0b001c
 			public const int listMode = 2131427356;
@@ -3257,8 +3257,8 @@ namespace JIOSiteNavigator
 			// aapt resource value: 0x7f0b0052
 			public const int list_item = 2131427410;
 			
-			// aapt resource value: 0x7f0b00ee
-			public const int masked = 2131427566;
+			// aapt resource value: 0x7f0b00ea
+			public const int masked = 2131427562;
 			
 			// aapt resource value: 0x7f0b00a9
 			public const int media_actions = 2131427497;
@@ -3521,8 +3521,8 @@ namespace JIOSiteNavigator
 			// aapt resource value: 0x7f0b00b6
 			public const int text2 = 2131427510;
 			
-			// aapt resource value: 0x7f0b00d9
-			public const int textSiteAddress = 2131427545;
+			// aapt resource value: 0x7f0b00cd
+			public const int textSiteAddress = 2131427533;
 			
 			// aapt resource value: 0x7f0b005c
 			public const int textSpacerNoButtons = 2131427420;
@@ -3566,35 +3566,26 @@ namespace JIOSiteNavigator
 			// aapt resource value: 0x7f0b000b
 			public const int transition_scene_layoutid_cache = 2131427339;
 			
+			// aapt resource value: 0x7f0b00d9
+			public const int txtBackhole = 2131427545;
+			
 			// aapt resource value: 0x7f0b00da
-			public const int txtAddressValue = 2131427546;
+			public const int txtBackholeValue = 2131427546;
 			
 			// aapt resource value: 0x7f0b00e5
-			public const int txtBackhole = 2131427557;
+			public const int txtCIName = 2131427557;
 			
-			// aapt resource value: 0x7f0b00e6
-			public const int txtBackholeValue = 2131427558;
+			// aapt resource value: 0x7f0b00d0
+			public const int txtFacilityType = 2131427536;
+			
+			// aapt resource value: 0x7f0b00d1
+			public const int txtFacilityTypeValue = 2131427537;
 			
 			// aapt resource value: 0x7f0b00d6
-			public const int txtCIMobileNo = 2131427542;
+			public const int txtGateWayIP = 2131427542;
 			
-			// aapt resource value: 0x7f0b00d3
-			public const int txtCIName = 2131427539;
-			
-			// aapt resource value: 0x7f0b00d4
-			public const int txtCINameValue = 2131427540;
-			
-			// aapt resource value: 0x7f0b00dc
-			public const int txtFacilityType = 2131427548;
-			
-			// aapt resource value: 0x7f0b00dd
-			public const int txtFacilityTypeValue = 2131427549;
-			
-			// aapt resource value: 0x7f0b00e2
-			public const int txtGateWayIP = 2131427554;
-			
-			// aapt resource value: 0x7f0b00e3
-			public const int txtGateWayIPValue = 2131427555;
+			// aapt resource value: 0x7f0b00d7
+			public const int txtGateWayIPValue = 2131427543;
 			
 			// aapt resource value: 0x7f0b00c7
 			public const int txtIPCOLOID = 2131427527;
@@ -3608,11 +3599,11 @@ namespace JIOSiteNavigator
 			// aapt resource value: 0x7f0b00c5
 			public const int txtIPNameValue = 2131427525;
 			
-			// aapt resource value: 0x7f0b00e8
-			public const int txtLB = 2131427560;
+			// aapt resource value: 0x7f0b00dc
+			public const int txtLB = 2131427548;
 			
-			// aapt resource value: 0x7f0b00e9
-			public const int txtLBValue = 2131427561;
+			// aapt resource value: 0x7f0b00dd
+			public const int txtLBValue = 2131427549;
 			
 			// aapt resource value: 0x7f0b00bc
 			public const int txtSAPId = 2131427516;
@@ -3620,26 +3611,23 @@ namespace JIOSiteNavigator
 			// aapt resource value: 0x7f0b00be
 			public const int txtSAPIdValue = 2131427518;
 			
+			// aapt resource value: 0x7f0b00ce
+			public const int txtSiteAddressValue = 2131427534;
+			
 			// aapt resource value: 0x7f0b00c0
 			public const int txtSiteName = 2131427520;
 			
 			// aapt resource value: 0x7f0b00c2
 			public const int txtSiteNameValue = 2131427522;
 			
-			// aapt resource value: 0x7f0b00eb
-			public const int txtSitesDependency = 2131427563;
+			// aapt resource value: 0x7f0b00df
+			public const int txtSitesDependency = 2131427551;
 			
-			// aapt resource value: 0x7f0b00ec
-			public const int txtSitesDependencyValue = 2131427564;
+			// aapt resource value: 0x7f0b00e0
+			public const int txtSitesDependencyValue = 2131427552;
 			
-			// aapt resource value: 0x7f0b00d0
-			public const int txtTechnicianMobileNo = 2131427536;
-			
-			// aapt resource value: 0x7f0b00cd
-			public const int txtTechnicianName = 2131427533;
-			
-			// aapt resource value: 0x7f0b00ce
-			public const int txtTechnicianNameValue = 2131427534;
+			// aapt resource value: 0x7f0b00e2
+			public const int txtTechnicianName = 2131427554;
 			
 			// aapt resource value: 0x7f0b00ca
 			public const int txtTowerType = 2131427530;
@@ -3647,11 +3635,11 @@ namespace JIOSiteNavigator
 			// aapt resource value: 0x7f0b00cb
 			public const int txtTowerTypeValue = 2131427531;
 			
-			// aapt resource value: 0x7f0b00df
-			public const int txtType = 2131427551;
+			// aapt resource value: 0x7f0b00d3
+			public const int txtType = 2131427539;
 			
-			// aapt resource value: 0x7f0b00e0
-			public const int txtTypeValue = 2131427552;
+			// aapt resource value: 0x7f0b00d4
+			public const int txtTypeValue = 2131427540;
 			
 			// aapt resource value: 0x7f0b0009
 			public const int up = 2131427337;
@@ -3662,8 +3650,8 @@ namespace JIOSiteNavigator
 			// aapt resource value: 0x7f0b000e
 			public const int view_offset_helper = 2131427342;
 			
-			// aapt resource value: 0x7f0b00ed
-			public const int visible = 2131427565;
+			// aapt resource value: 0x7f0b00e9
+			public const int visible = 2131427561;
 			
 			// aapt resource value: 0x7f0b009b
 			public const int volume_item_container = 2131427483;

@@ -35,7 +35,8 @@
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/txtSAPIdValue" />
+            android:id="@+id/txtSAPIdValue"
+            android:gravity="right" />
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
@@ -57,7 +58,8 @@
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/txtSiteNameValue" />
+            android:id="@+id/txtSiteNameValue"
+            android:gravity="right" />
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
@@ -79,7 +81,8 @@
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/txtIPNameValue" />
+            android:id="@+id/txtIPNameValue"
+            android:gravity="right" />
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
@@ -101,7 +104,8 @@
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/txtIPCOLOIDValue" />
+            android:id="@+id/txtIPCOLOIDValue"
+            android:gravity="right" />
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
@@ -123,97 +127,8 @@
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/txtTowerTypeValue" />
-    </LinearLayout>
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/linearLayout6">
-        <TextView
-            android:text="Technician Name"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/txtTechnicianName" />
-        <Space
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:id="@+id/space2" />
-        <TextView
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/txtTechnicianNameValue" />
-    </LinearLayout>
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/linearLayout7">
-        <TextView
-            android:text="Technician Mobile No"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/txtTechnicianMobileNo" />
-        <Space
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:id="@+id/space2" />
-        <Button
-            android:text="0987654321"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/btnTechnicianMobileNo" />
-    </LinearLayout>
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/linearLayout8">
-        <TextView
-            android:text="CI Name"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/txtCIName" />
-        <Space
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:id="@+id/space2" />
-        <TextView
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/txtCINameValue" />
-    </LinearLayout>
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/linearLayout9">
-        <TextView
-            android:text="CIMobile Number"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/txtCIMobileNo" />
-        <Space
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:id="@+id/space2" />
-        <Button
-            android:text="1234567890"
-            android:layout_width="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:layout_height="wrap_content"
-            android:id="@+id/btnCIMobileNo" />
+            android:id="@+id/txtTowerTypeValue"
+            android:gravity="right" />
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
@@ -221,7 +136,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/linearLayout10">
         <TextView
-            android:text="Address:"
+            android:text="Address"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -234,10 +149,16 @@
         <TextView
             android:text="Daya Singh, s/o-Late Jagdish, Vill- Kandeli, Thasil Dit-Bemetara, Pin-491335, Mob-9425564751"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:layout_width="wrap_content"
+            android:id="@+id/txtSiteAddressValue"
+            android:layout_width="250dp"
             android:layout_height="wrap_content"
-            android:layout_gravity="fill"
-            android:id="@+id/txtAddressValue" />
+            android:ellipsize="none"
+            android:singleLine="false"
+            android:scrollHorizontally="false"
+            android:layout_weight="1"
+            android:maxLines="100"
+            android:gravity="right"
+            android:layout_marginRight="5dp" />
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
@@ -259,7 +180,8 @@
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/txtFacilityTypeValue" />
+            android:id="@+id/txtFacilityTypeValue"
+            android:gravity="right" />
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
@@ -281,7 +203,8 @@
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/txtTypeValue" />
+            android:id="@+id/txtTypeValue"
+            android:gravity="right" />
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
@@ -303,7 +226,8 @@
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/txtGateWayIPValue" />
+            android:id="@+id/txtGateWayIPValue"
+            android:gravity="right" />
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
@@ -325,7 +249,8 @@
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/txtBackholeValue" />
+            android:id="@+id/txtBackholeValue"
+            android:gravity="right" />
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
@@ -347,7 +272,8 @@
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/txtLBValue" />
+            android:id="@+id/txtLBValue"
+            android:gravity="right" />
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
@@ -369,6 +295,66 @@
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/txtSitesDependencyValue" />
+            android:id="@+id/txtSitesDependencyValue"
+            android:gravity="right" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout7">
+        <TextView
+            android:text="Tech Name ()"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtTechnicianName" />
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/space2" />
+        <Button
+            android:text="0987654321"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnTechnicianMobileNo" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout9">
+        <TextView
+            android:text="CI Name ()"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtCIName" />
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/space2" />
+        <Button
+            android:text="1234567890"
+            android:layout_width="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnCIMobileNo" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout17">
+        <Button
+            android:text="Geo Map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/btnGeoMap" />
     </LinearLayout>
 </LinearLayout>
