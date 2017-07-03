@@ -147,7 +147,6 @@
             android:layout_weight="1"
             android:id="@+id/space1" />
         <TextView
-            android:text="Daya Singh, s/o-Late Jagdish, Vill- Kandeli, Thasil Dit-Bemetara, Pin-491335, Mob-9425564751"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:id="@+id/txtSiteAddressValue"
             android:layout_width="250dp"
@@ -315,7 +314,7 @@
             android:layout_weight="1"
             android:id="@+id/space2" />
         <Button
-            android:text="0987654321"
+            android:text="xxx-xxx-xxxx"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -338,7 +337,7 @@
             android:layout_weight="1"
             android:id="@+id/space2" />
         <Button
-            android:text="1234567890"
+            android:text="xxx-xxx-xxxx"
             android:layout_width="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:layout_height="wrap_content"

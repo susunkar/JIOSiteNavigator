@@ -23,6 +23,7 @@ Global
 		{43878A04-3E3A-43E1-927C-867B7E808780}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43878A04-3E3A-43E1-927C-867B7E808780}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43878A04-3E3A-43E1-927C-867B7E808780}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43878A04-3E3A-43E1-927C-867B7E808780}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
