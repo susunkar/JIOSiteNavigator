@@ -222,9 +222,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <AndroidAsset Include="Assets\WordList.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\drawable\JIOLogo.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </AndroidResource>

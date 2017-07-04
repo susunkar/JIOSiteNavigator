@@ -31,9 +31,11 @@ namespace JIOSiteNavigator
             base.OnCreate(savedInstanceState);
 
             SetContentView(Resource.Layout.SiteSearch);
-            
-            var autoCompleteOptions = _siteRepo.SiteDetail.Select(c => c.SAPKey).ToArray();
-            
+
+            var sapKeys = _siteRepo.SiteDetail.Select(c => c.SAPKey).OrderBy(n => n);
+            var siteNames = _siteRepo.SiteDetail.Select(c => c.SiteName).OrderBy(n=>n);
+            var autoCompleteOptions = siteNames.Union(sapKeys).ToArray();
+
             ArrayAdapter autoCompleteAdapter = new ArrayAdapter(this, Android.Resource.Layout.SimpleDropDownItem1Line
                 , autoCompleteOptions);
 
@@ -83,7 +85,7 @@ namespace JIOSiteNavigator
         //TODO: Exceptio need to handel
         private void AutocompleteTextView_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
         {
-            var selectSiteData = _siteRepo.SiteDetail.Where(c => c.SAPKey.Equals(_autocompleteTextView.Text)).Take(1);
+            var selectSiteData = _siteRepo.SiteDetail.Where(c => c.SAPKey.Equals(_autocompleteTextView.Text) || c.SiteName.Equals(_autocompleteTextView.Text)).Take(1);
             var siteDatas = selectSiteData as SiteData[] ?? selectSiteData.ToArray();
             var firstOrDefault = siteDatas.FirstOrDefault();
 
